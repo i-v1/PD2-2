@@ -18,4 +18,4 @@ label = parts[0]
 total_mb = list(parts[2])
 total_mb = total_mb/1024
 
-print label: (total_mb:2f)
+print(f"{label}:{total_gb: 2f} GB")
