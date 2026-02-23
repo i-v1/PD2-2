@@ -1,3 +1,4 @@
+/// 2.uzd
 # Label; MountPoint; TotalSize (MB); Used (%)
 partitions = [
     "System;/;50000;85",
