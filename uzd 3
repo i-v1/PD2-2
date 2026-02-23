@@ -1,1 +1,4 @@
-
+total_mb = 0
+for p in partitions:
+    total_mb=list(p.split(";")[2])
+print ("Total size",total_mb"MB")
