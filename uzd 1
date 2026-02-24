@@ -11,7 +11,7 @@ partitions = [
     "Win-System;/mnt/win;100000;90",
     "Recovery;/recovery;2000;98"
 ]
-print ("Partition nosaukums:")
+print ("Partition name:")
 
 for p in partitions:
     label = p.split(",")[0]
