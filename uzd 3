@@ -19,4 +19,4 @@ for p in partitions:
     used_percent = int(parts[3])
     
     if used_percent >= 90:
-        print(f"uzmanību: {lable} disks ir full!")
+        print(f"uzmanību: {lable} disk ir full!")
