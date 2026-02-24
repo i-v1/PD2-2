@@ -16,4 +16,4 @@ total_mb = 0
 for p in partitions:
     total_mb +=int(p.split(";")[2])
     
-print("summary size:", total_mb, "MB")
+print("Summary:", total_mb, "MB")
